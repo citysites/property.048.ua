@@ -1,0 +1,45 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page765888.html
+
+RewriteEngine On
+
+RewriteRule ^property$ page765888.html [NC]
+RewriteRule ^property/$ page765888.html [NC]
+
+RewriteRule ^graf$ page769535.html [NC]
+RewriteRule ^graf/$ page769535.html [NC]
+
+RewriteRule ^yantarnii$ page825706.html [NC]
+RewriteRule ^yantarnii/$ page825706.html [NC]
+
+RewriteRule ^lecsky$ page970454.html [NC]
+RewriteRule ^lecsky/$ page970454.html [NC]
+
+RewriteRule ^citypark$ page989274.html [NC]
+RewriteRule ^citypark/$ page989274.html [NC]
+
+RewriteRule ^artville$ page1011430.html [NC]
+RewriteRule ^artville/$ page1011430.html [NC]
+
+RewriteRule ^primorskiesadi$ page1039852.html [NC]
+RewriteRule ^primorskiesadi/$ page1039852.html [NC]
+
+RewriteRule ^ostrova$ page1050456.html [NC]
+RewriteRule ^ostrova/$ page1050456.html [NC]
+
+RewriteRule ^zolotayaera$ page1081520.html [NC]
+RewriteRule ^zolotayaera/$ page1081520.html [NC]
+
+RewriteRule ^tairovskiesadi$ page1098450.html [NC]
+RewriteRule ^tairovskiesadi/$ page1098450.html [NC]
+
+RewriteRule ^chaika$ page1243426.html [NC]
+RewriteRule ^chaika/$ page1243426.html [NC]
+
+RewriteRule ^avangard$ page2602472.html [NC]
+RewriteRule ^avangard/$ page2602472.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=301,L]
+

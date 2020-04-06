@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Sitemap: http://property.048.ua/sitemap.xml
+Host: property.048.ua
